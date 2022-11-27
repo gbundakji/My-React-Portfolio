@@ -1,5 +1,5 @@
-import '../styles/About.css';
-import headShot from '../../../public/images/headshot.png';
+// import '../styles/About.css';
+import headShot from '../../images/headshot.jpg';
 
 function About() {
   return (

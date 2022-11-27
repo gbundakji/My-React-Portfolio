@@ -1,9 +1,9 @@
-import '../styles/Header.css';
-import Navigation from '../Navigation';
-import coverImg from '../../../public/images/odyssy4k.png';
+// import '../styles/Header.css';
+import Navigation from '../pages/Navigation';
+import coverImg from '../../images/odyssy4k.png';
 
 function Header(props) {
-    const { currentTab, handleTabChange } = props;
+    const { currentPage, handlePageChange } = props;
   
     return (
       <div>
@@ -14,8 +14,8 @@ function Header(props) {
             </div>
             <div>
               <Navigation
-                currentTab={currentTab}
-                handleTabChange={handleTabChange}
+                currentPage={currentPage}
+                handlePageChange={handlePageChange}
               ></Navigation>
             </div>
           </header>
