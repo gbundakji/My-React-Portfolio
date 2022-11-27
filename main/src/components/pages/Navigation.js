@@ -1,4 +1,4 @@
-// import '../styles/Navigation.css';
+import '../../styles/Navigation.css';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (

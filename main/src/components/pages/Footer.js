@@ -1,13 +1,16 @@
 import { VscGithubAlt } from "react-icons/vsc";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
-// import footImg from "../../../public/images/space.jpg"
+import footImg from "../../images/space.jpg"
+import '../../styles/Footer.css';
 
 function Footer() {
     return (
       <footer>
+        <img src={footImg} className="footimg" style={{ width: "100%" }} alt="foot cover"/>
         <h2>Made with React</h2>
         <h3>By: Gassan Bundakji</h3>
+        
         <p>
           <ul>
             <a href="https://github.com/gbundakji">

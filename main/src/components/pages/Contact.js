@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// import '../../styles/Contact.css';
+import '../../styles/Contact.css';
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
@@ -36,12 +36,21 @@ function Contact() {
 
   return (
     <div className='contact'>
-        <div>
-            <h1>Contact Me!</h1>
+        <div className='contact-me'>
+            <h1>Contact Me</h1>
         </div>
             <div className='contact-info'>
             <h2>Hello {userName}!</h2>
+              <div>
+                {/* <h3>How to reach me</h3>
+                <ul>
+                  <il>
+                    Email: Gassanb97@gmail.com
+                  </il>
+                </ul> */}
+              </div>
                 <form className="form">
+                    <label>Your Email</label>
                     <input
                         value={email}
                         name="email"
@@ -49,6 +58,7 @@ function Contact() {
                         type="email"
                         placeholder="Email"
                     />
+                    <label>Your Name</label>
                     <input
                         value={userName}
                         name="userName"
@@ -56,6 +66,7 @@ function Contact() {
                         type="text"
                         placeholder="Name"
                     />
+                    <label>Message</label>
                     <input
                         value={message}
                         name="message"

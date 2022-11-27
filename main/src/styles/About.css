@@ -1,0 +1,27 @@
+.aboutme {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+    width: 25%
+}
+
+.aboutme h1 {
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.my-intro p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    text-align: left;
+    font-size: 25px;
+    padding-left: 380px;
+    margin-top: -500px;
+    margin-right: 20px;
+}
+
+.my-img {
+    padding: 20px;
+    position: relative;
+    max-width: fit-content;
+}

@@ -1,4 +1,4 @@
-
+import '../../styles/Portfolio.css';
 
 
 

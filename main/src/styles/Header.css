@@ -1,0 +1,37 @@
+.header {
+    padding-left: 10px;
+    position: absolute;
+    color: white;
+}
+
+.nav {
+    text-align: right;
+    color: white; 
+}
+
+.head-welc {
+    text-align: center;
+    margin: 30px;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.head-welc p {
+    font-size: 20px;
+}
+
+ .head-sec img {
+    background-size: cover;
+}
+
+ .img {
+    max-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+ }

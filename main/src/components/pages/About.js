@@ -1,14 +1,14 @@
-// import '../styles/About.css';
+import '../../styles/About.css';
 import headShot from '../../images/headshot.jpg';
 
 function About() {
   return (
-    <div>
+    <div className="about">
         <div className="aboutme">
           <h1>About Me</h1>
         </div>
         <div className="my-img">
-            <img src={headShot} style={{width: "100px"}} alt="headshot" />
+            <img src={headShot} style={{width: "30%"}} alt="headshot" />
         </div>
         <div className="my-intro">    
         <p>
