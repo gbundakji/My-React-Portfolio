@@ -12,12 +12,6 @@ function Header(props) {
             <div>
               <h1>Gassan Bundakji</h1>
             </div>
-            {/* <div>
-              <Navigation className="nav"
-                currentPage={currentPage}
-                handlePageChange={handlePageChange}
-              ></Navigation>
-            </div> */}
           </header>
         </section>
         <section className="head-sec">

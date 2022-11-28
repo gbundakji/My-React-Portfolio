@@ -42,12 +42,6 @@ function Contact() {
             <div className='contact-info'>
             <h2>Hello {userName}!</h2>
               <div>
-                {/* <h3>How to reach me</h3>
-                <ul>
-                  <il>
-                    Email: Gassanb97@gmail.com
-                  </il>
-                </ul> */}
               </div>
                 <form className="form">
                     <label>Your Email</label>
