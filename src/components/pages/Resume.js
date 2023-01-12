@@ -1,6 +1,6 @@
 import '../../styles/Resume.css';
 import { BsCloudDownload } from "react-icons/bs";
-import pdf from '../../../documents/Gassan-Resume.pdf';
+import pdf from '../../documents/Gassan-Resume.pdf';
 
 function Resume() {
     return (
