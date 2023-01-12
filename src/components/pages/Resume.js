@@ -1,5 +1,6 @@
 import '../../styles/Resume.css';
 import { BsCloudDownload } from "react-icons/bs";
+import pdf from '../../../documents/Gassan-Resume.pdf';
 
 function Resume() {
     return (
@@ -7,7 +8,7 @@ function Resume() {
         <div>
             <div className="head">
                 <h2>My Resume</h2>
-                <a href={''} className="download" download>
+                <a href={pdf} className="download" download>
                     <BsCloudDownload />
                 </a>
             </div>
